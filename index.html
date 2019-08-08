@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div id="finalScore">Score: </div>
+    <p id='timer'>30</p>
+    <button id="reset">Start Game!</button>
+    <!-- <g transform="rotate(45, 16, 16)"> -->
+            <p id='rules'>The rules are simple: click on the image as fast as you can before it disappears!
+                  Reach 15 clicks in a round and you win!</p>
+    <div class="floatingIslandBox">
+        <div class="floatingIsland"><img class="floatImage" id="box1img"
+                src="floating-island-isolated-vector-10661559-removebg-preview.png"></div>
+    </div>
+
+    <div class="floatingIslandBox2">
+        <div class="floatingIsland"><img class="floatImage2" id="box1img"
+                src="floating-island-isolated-vector-10661559-removebg-preview.png"></div>
+    </div>
+
+    <div class="floatingIslandBox3">
+        <div class="floatingIsland"><img class="floatImage3" id="box1img"
+                src="floating-island-isolated-vector-10661559-removebg-preview.png"></div>
+    </div>
+
+    <div class="circleBox circleBox1">
+        <div class="circle type1"><img class="open image image1" id="box1img"
+                src="profilepicResized-removebg-preview.png"></div>
+    </div>
+    <div class="circleBox circleBox2">
+        <div class="circle type2"><img class="image image2" id="box2img" src="profilepicResized-removebg-preview.png">
+        </div>
+    </div>
+    <div class="circleBox circleBox3">
+        <div class="circle type3"><img class="image image3" id="box3img" src="profilepicResized-removebg-preview.png">
+        </div>
+    </div>
+    <div class="circleBox circleBox4">
+        <div class="circle type4"><img class="image image4" id="box4img" src="profilepicResized-removebg-preview.png">
+        </div>
+    </div>
+    <div class="circleBox circleBox5">
+        <div class="circle type5"><img class="image image5" id="box5img" src="profilepicResized-removebg-preview.png">
+        </div>
+    </div>
+    <div class="circleBox circleBox6">
+        <div class="circle type6"><img class="image image6" id="box6img" src="profilepicResized-removebg-preview.png">
+        </div>
+    </div>
+    <audio id="battle" src="battlepokemon.wav" loop></audio>
+    <audio id="victory" src="victory.wav" loop></audio>
+    <audio id="defeat" src="defeat.wav" loop></audio>
+    <audio id="jab" src="jab.wav"></audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./app.js">
+//     document.addEventListener('DOMContentLoaded', (event) => {
+//         document.getElementById('battle').play();
+//   });
+    </script>
+</body>
+
+</html>
